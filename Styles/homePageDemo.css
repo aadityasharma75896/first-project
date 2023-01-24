@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: white;
+  letter-spacing: 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  width: 100px;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+}
+
+nav h1 span {
+  color: #8186b1;
+}
+
+h5 {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  width: 120px;
+}
+
+ul img {
+  width: 25%;
+  margin-left: 5%;
+}
+
+body {
+  background-color: #1b1c26;
+  margin: 3% 5% 5% 5%;
+}
+
+.platformButtons {
+  width: 40%;
+}
+
+button {
+  background: #292b3c;
+  border-radius: 15px;
+  width: 100%;
+  height: 90px;
+  border: none;
+  margin-bottom: 6%;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.introductionAndLazyCat {
+  width: 50%;
+}
+
+p {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  color: white;
+  width: 100%;
+}
+
+.introductionAndLazyCat img {
+  width: 100%;
+  margin-top: 5%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  h1 {
+    font-size: 28px;
+    line-height: 20px;
+    margin-right: 40%;
+  }
+
+  ul img {
+    width: 25%;
+    margin-left: 5%;
+  }
+
+  article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .platformButtons {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .introductionAndLazyCat {
+    width: 100%;
+    margin-top: 5%;
+  }
+}

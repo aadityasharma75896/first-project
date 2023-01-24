@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: white;
+  letter-spacing: 2px;
+}
+
+span {
+  color: #8186b1;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+}
+
+body {
+  background-color: #1b1c26;
+}
+
+button span {
+  color: #ffb445;
+}
+
+main {
+  margin: 6% 8% 8% 8%;
+}
+
+.mobileNavigationButton {
+    visibility: hidden;
+  }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #292b3b;
+  width: 96%;
+  margin: 0% 2%;
+  box-sizing: border-box;
+  height: 100px;
+}
+
+nav li {
+  display: inline;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 40px;
+  margin: 0 5rem 0 0;
+  color: #8186b1;
+}
+
+.lazyCodeLogoHeader {
+  width: 10rem;
+  margin-left: 5%;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.headerLine {
+  width: 90%;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.heroSectionLeftColumn h2 {
+  width: 100%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.headingText {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  margin-bottom: 80px;
+}
+
+.heroSectionLeftColumn button {
+  width: 76%;
+  height: 60px;
+  background: #292b3c;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 40px;
+  color: #4fbaff;
+}
+
+.lazyCatImage {
+  width: 50%;
+}
+
+a {
+  color: #8186b1;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.5s;
+}
+
+.lazyCodeWelcome {
+  width: 100%;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.lazyCodeDescription {
+  width: 100%;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.simpleMinimalWrapper {
+  margin: 8% 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-weight: bold;
+  width: 29%;
+  font-size: 30px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.simpleMinimalWrapper h1 {
+  width: 620px;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  letter-spacing: 0.1em;
+}
+
+.codersDelightWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8%;
+}
+
+.codersDelightWrapper h1 {
+  width: 620px;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  letter-spacing: 0.1em;
+  text-align: right;
+}
+
+.openSourceTextWrapper {
+  margin: 8% 0% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.openSourceTextWrapper h1 {
+  width: 620px;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  letter-spacing: 0.1em;
+}
+
+.openSourceButtons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  background: #292b3c;
+  border-radius: 10px;
+  width: 450px;
+  height: 60px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 40px;
+  color: #ffb445;
+  border: none;
+}
+
+.openSourceButtons button span {
+  color: #8186b1;
+}
+
+.openSourceButtons button:hover{
+  cursor: pointer; 
+  color: white;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  background-color: #292b3b;
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 10%;
+  box-sizing: border-box;
+  height: 200px;
+}
+
+.lazyCodeLogoFooter {
+  width: 10rem;
+  margin-left: 5%;
+  margin-top: -60px;
+}
+
+.footerLinksColumnWrapper {
+  width: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+footer li {
+  color: #8186b1;
+  list-style-type: none;
+}
+
+footer li:hover {
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.5s;
+  border-bottom: none;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  .headerLine {
+    font-size: 25px;
+  }
+
+  .headingText {
+    font-size: 50px;
+  }
+
+  .heroSectionLeftColumn button {
+    width: 85%;
+  }
+
+  .lazyCodeWelcome {
+    font-size: 35px;
+  }
+
+  .lazyCodeDescription {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  .simpleMinimalWrapper h1 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  .codersDelightWrapper h1 {
+    margin-left: -40%;
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  .codersDelightWrapper img {
+    width: 50%;
+  }
+
+  .openSourceTextWrapper h1 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  button {
+    width: 400px;
+    font-size: 20px;
+  }
+
+  .openSourceButtons button span {
+    color: #8186b1;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  nav li {
+    display: none;
+  }
+
+  .mobileNavigationButton {
+    visibility: visible;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+
+  .mobileNavigationButton strong {
+    font-weight: 900;
+  }
+
+  header {
+    height: 80px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 0 5%;
+  }
+
+  .heroSection {
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .headerLine {
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .lazyCodeLogoHeader {
+    width: 8rem;
+    margin-left: 0%;
+  }
+
+  .heroSectionLeftColumn h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .headingText {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .heroSectionLeftColumn button {
+    width: 100%;
+    font-size: 18px;
+    height: 50px;
+  }
+
+  .lazyCatImage {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .lazyCodeWelcome {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .lazyCodeDescription {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .simpleMinimalWrapper {
+    flex-wrap: wrap;
+  }
+
+  p {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .simpleMinimalWrapper h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 8% 0 4% 0;
+  }
+
+  .codersDelightWrapper {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .codersDelightWrapper h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 8% 0 4% 0;
+  }
+
+  .codersDelightWrapper img {
+    width: 100%;
+  }
+
+  .openSourceTextWrapper {
+    flex-wrap: wrap;
+  }
+
+  .openSourceTextWrapper h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 8% 0 4% 0;
+  }
+
+  .openSourceButtons {
+    flex-wrap: wrap;
+  }
+
+  button {
+    margin-top: 5%;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    height: 320px;
+    text-align: center;
+    margin-top: 15%;
+    padding: 8%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  .lazyCodeLogoFooter {
+    width: 10rem;
+    margin-left: 0%;
+  }
+
+  .footerLinksColumnWrapper {
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 2%;
+  }
+}
